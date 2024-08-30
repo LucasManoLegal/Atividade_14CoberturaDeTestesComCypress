@@ -37,7 +37,8 @@ export default function Tasks({ tasks, setTasks, updateLocalStorage }) {
                 >
                   ✔️
                 </button>
-                <button id="deletar-tarefa" onClick={() => removeTask(task.id)}>
+                <button id="deletar-tarefa" 
+                  onClick={() => removeTask(task.id)}>
                   ❌
                 </button>
               </span>

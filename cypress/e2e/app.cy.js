@@ -5,6 +5,7 @@ describe("Aplicação de lista de tarefas (To-do) - React", () => {
     item3: "Estudar JavaScript",
     item4: "Estudar React",
     item5: "Estudar MongoDB",
+    item6: "Esudar Python"
   };
 
   beforeEach(() => {
